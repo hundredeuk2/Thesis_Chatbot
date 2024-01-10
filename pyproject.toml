@@ -8,6 +8,7 @@ packages = [{include = "thesis_rag"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+docarray = "^0.40.0"
 
 
 [build-system]
