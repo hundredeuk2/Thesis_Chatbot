@@ -9,7 +9,7 @@ from exceptions import APIKeyNotFoundError
 
 
 
-class OpenAIEmbedding(Embedding):
+class GeminiEmbedding(Embedding):
     """Open Ai embedding class to implement a Embedding."""
 
     def __init__(self, api_token: Optional[str] = None):
